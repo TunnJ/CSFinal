@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{89EBE836-C388-4987-9B41-4681C73928F5}|Default">
+  <MonoDevelop.Ide.ItemProperties.FinalProject PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FinalProject/Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="FinalProject/Views/Shared/_Layout.cshtml" Line="52" Column="45" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FinalProject" expanded="True">
+            <Node name="FinalProject" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

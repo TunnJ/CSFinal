@@ -1,0 +1,26 @@
+﻿@model EditViewModel
+@{
+    ViewBag.Title = "Account Information";
+}
+
+<h1 style="text-align:center">Account Information</h1>
+<p>You can change you goal weight down below.</p>
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="EditUser" method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="GoalWeight"></label>
+                <input asp-for="GoalWeight" class="form-control" />
+                <span asp-validation-for="GoalWeight" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Save</button>
+        </form>
+    </div>
+</div>
+
+<h3>Account Deactivation</h3>
+<p>If you need to deactivate you account, you can click on the button below. Once you deactivate your account, you will have to register again in order to use the BMI calculator</p>
+<form asp-action="DeleteUser" method="post">
+    <button type="submit" class="btn btn-primary">Deactivate Account</button>
+</form>

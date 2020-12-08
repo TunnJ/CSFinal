@@ -1,0 +1,24 @@
+﻿@model EditViewModel
+@{
+    ViewData["Title"] = "BMI Calculator";
+}
+
+<h1 style="text-align:center">BMI Calculator</h1>
+
+<p>Here you will be able to enter you weight for the day and you can see how close you are to your goal.</p>
+<p>If you ever need to change your goal weight, you are able to by clicking on the Account Information table in the top right of your screen.</p>
+
+<h3>Enter in your weight for today to receive you daily BMI and progression results!</h3>
+<div class="row">
+    <div class="col-md-12">
+        <form method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="GoalWeight"></label>
+                <input asp-for="GoalWeight" class="form-control" />
+                <span asp-validation-for="GoalWeight" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Calculated</button>
+        </form>
+    </div>
+</div>
